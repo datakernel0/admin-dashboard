@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", async (event) => {
     message.textContent = "Logging in...";
 
     try {
-        const response = await fetch("https://admin-dashboard-r7ur.onrender.com/", {
+        const response = await fetch("https://admin-dashboard-r7ur.onrender.com/api/login", {
             method: "POST",
 
             headers: {
